@@ -2,12 +2,11 @@ from myStack import MyStack
 
 stack = MyStack()
 
-stack.push('hello')
-stack.push('good evening')
-stack.push('zzzzz')
+print(f'stacked {stack.push("hello")}')
+print(f'stacked {stack.push("good evening")}')
+print(f'stacked {stack.push("zzzzz")}')
 
-print(stack.pop())
-print(stack.pop())
-print(stack.pop())
-
+print(f'popped {stack.pop()}')
+print(f'popped {stack.pop()}')
+print(f'popped {stack.pop()}')
 
