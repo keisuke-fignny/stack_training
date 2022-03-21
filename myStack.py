@@ -14,3 +14,4 @@ class MyStack:
 
     # スタックの要素数をチェックし、要素数を返却
     def checkLength(self) -> int:
+        # ここに処理を書いて下さい
